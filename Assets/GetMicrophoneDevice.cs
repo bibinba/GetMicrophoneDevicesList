@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class GetMicrophoneDevice : MonoBehaviour
 {
     public Text Text_Device;
-    // Start is called before the first frame update
     void Start()
     {
         foreach (var device in Microphone.devices)
@@ -16,9 +15,4 @@ public class GetMicrophoneDevice : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
